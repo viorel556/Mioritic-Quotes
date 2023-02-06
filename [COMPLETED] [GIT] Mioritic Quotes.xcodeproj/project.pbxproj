@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FFF3BF5297DAF4E003F5692 /* Mioritic_Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF3BF4297DAF4E003F5692 /* Mioritic_Quotes.swift */; };
+		1FFF3BF7297DAF4E003F5692 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF3BF6297DAF4E003F5692 /* ContentView.swift */; };
+		1FFF3BF9297DAF4F003F5692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FFF3BF8297DAF4F003F5692 /* Assets.xcassets */; };
+		1FFF3BFC297DAF4F003F5692 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FFF3BFB297DAF4F003F5692 /* Preview Assets.xcassets */; };
+		1FFF3C0A297DB00C003F5692 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF3C09297DB00C003F5692 /* QuoteModel.swift */; };
+		1FFF3C0C297DB024003F5692 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF3C0B297DB024003F5692 /* Quote.swift */; };
+		1FFF3C0E297DB035003F5692 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF3C0D297DB035003F5692 /* DataService.swift */; };
+		1FFF3C10297DB8A7003F5692 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FFF3C0F297DB8A7003F5692 /* quotes.json */; };
+		1FFF3C12297DECA4003F5692 /* AuthorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF3C11297DECA3003F5692 /* AuthorListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FFF3BF1297DAF4E003F5692 /* [COMPLETED] [GIT] Mioritic Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "[COMPLETED] [GIT] Mioritic Quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFF3BF4297DAF4E003F5692 /* Mioritic_Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mioritic_Quotes.swift; sourceTree = "<group>"; };
+		1FFF3BF6297DAF4E003F5692 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1FFF3BF8297DAF4F003F5692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FFF3BFB297DAF4F003F5692 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FFF3C09297DB00C003F5692 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		1FFF3C0B297DB024003F5692 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		1FFF3C0D297DB035003F5692 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		1FFF3C0F297DB8A7003F5692 /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		1FFF3C11297DECA3003F5692 /* AuthorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FFF3BEE297DAF4E003F5692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FFF3BE8297DAF4E003F5692 = {
+			isa = PBXGroup;
+			children = (
+				1FFF3BF3297DAF4E003F5692 /* Mioritic Quotes */,
+				1FFF3BF2297DAF4E003F5692 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FFF3BF2297DAF4E003F5692 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF3BF1297DAF4E003F5692 /* [COMPLETED] [GIT] Mioritic Quotes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FFF3BF3297DAF4E003F5692 /* Mioritic Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF3BF4297DAF4E003F5692 /* Mioritic_Quotes.swift */,
+				1FFF3C02297DAF73003F5692 /* Views */,
+				1FFF3C04297DAF86003F5692 /* View Models */,
+				1FFF3C05297DAF97003F5692 /* Models */,
+				1FFF3C07297DAFAC003F5692 /* Services */,
+				1FFF3C08297DAFC8003F5692 /* Data */,
+				1FFF3BFA297DAF4F003F5692 /* Preview Content */,
+			);
+			path = "Mioritic Quotes";
+			sourceTree = "<group>";
+		};
+		1FFF3BFA297DAF4F003F5692 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF3BFB297DAF4F003F5692 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FFF3C02297DAF73003F5692 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF3BF6297DAF4E003F5692 /* ContentView.swift */,
+				1FFF3C11297DECA3003F5692 /* AuthorListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1FFF3C04297DAF86003F5692 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF3C09297DB00C003F5692 /* QuoteModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		1FFF3C05297DAF97003F5692 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF3C0B297DB024003F5692 /* Quote.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1FFF3C07297DAFAC003F5692 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF3C0D297DB035003F5692 /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1FFF3C08297DAFC8003F5692 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF3BF8297DAF4F003F5692 /* Assets.xcassets */,
+				1FFF3C0F297DB8A7003F5692 /* quotes.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FFF3BF0297DAF4E003F5692 /* [COMPLETED] [GIT] Mioritic Quotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FFF3BFF297DAF4F003F5692 /* Build configuration list for PBXNativeTarget "[COMPLETED] [GIT] Mioritic Quotes" */;
+			buildPhases = (
+				1FFF3BED297DAF4E003F5692 /* Sources */,
+				1FFF3BEE297DAF4E003F5692 /* Frameworks */,
+				1FFF3BEF297DAF4E003F5692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "[COMPLETED] [GIT] Mioritic Quotes";
+			productName = "Mioritic Quotes";
+			productReference = 1FFF3BF1297DAF4E003F5692 /* [COMPLETED] [GIT] Mioritic Quotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FFF3BE9297DAF4E003F5692 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1FFF3BF0297DAF4E003F5692 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 1FFF3BEC297DAF4E003F5692 /* Build configuration list for PBXProject "[COMPLETED] [GIT] Mioritic Quotes" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FFF3BE8297DAF4E003F5692;
+			productRefGroup = 1FFF3BF2297DAF4E003F5692 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FFF3BF0297DAF4E003F5692 /* [COMPLETED] [GIT] Mioritic Quotes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FFF3BEF297DAF4E003F5692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFF3BFC297DAF4F003F5692 /* Preview Assets.xcassets in Resources */,
+				1FFF3BF9297DAF4F003F5692 /* Assets.xcassets in Resources */,
+				1FFF3C10297DB8A7003F5692 /* quotes.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FFF3BED297DAF4E003F5692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFF3C0C297DB024003F5692 /* Quote.swift in Sources */,
+				1FFF3C0A297DB00C003F5692 /* QuoteModel.swift in Sources */,
+				1FFF3BF7297DAF4E003F5692 /* ContentView.swift in Sources */,
+				1FFF3C12297DECA4003F5692 /* AuthorListView.swift in Sources */,
+				1FFF3BF5297DAF4E003F5692 /* Mioritic_Quotes.swift in Sources */,
+				1FFF3C0E297DB035003F5692 /* DataService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1FFF3BFD297DAF4F003F5692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FFF3BFE297DAF4F003F5692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FFF3C00297DAF4F003F5692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mioritic Quotes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Mioritic-Quotes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FFF3C01297DAF4F003F5692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mioritic Quotes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Mioritic-Quotes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FFF3BEC297DAF4E003F5692 /* Build configuration list for PBXProject "[COMPLETED] [GIT] Mioritic Quotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFF3BFD297DAF4F003F5692 /* Debug */,
+				1FFF3BFE297DAF4F003F5692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FFF3BFF297DAF4F003F5692 /* Build configuration list for PBXNativeTarget "[COMPLETED] [GIT] Mioritic Quotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFF3C00297DAF4F003F5692 /* Debug */,
+				1FFF3C01297DAF4F003F5692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FFF3BE9297DAF4E003F5692 /* Project object */;
+}

@@ -1,0 +1,59 @@
+[
+  { "author": "Mihai Eminescu",
+    "image": "ambition",
+    "quotes": [
+      "Stejarul nu creşte pretutindenea; buruienile, în tot locul",
+      "Oamenii nu se deosebesc atât prin ceea ce zic, cât prin ceea ce fac.",
+      "Poate că povestea este partea cea mai frumoasă a vieţii omeneşti… cu poveşti ne leagănă lumea, cu poveşti ne adoarme… Ne trezim şi murim cu ele.",
+      "Popor românesc, mari învăţături îţi dă ţie această întâmplare! Dacă fiii tăi ar fi fost uniţi totdeauna, atunci şi pământul tău strămoşesc rămânea unul şi nedespărţit. Dar veacuri de dezbinare neîntreruptă te-au dus la slăbiciune, te-au dus să-ţi vezi ruşinea cu ochii!",
+      "Ceea ce pentru noi este un adevăr absolut, e numai rezultatul (poate relativ) de cultură a vremilor trecute."
+    ]
+  },
+
+  {
+    "author": "Adrian Paunescu",
+    "image": "calm",
+    "quotes": [
+      "Asist întâmplător la spectacolul prostiei lumii şi parcă aş vrea să-mi iau abonament",
+      "Două lucruri sunt imposibile în viață: a vedea cu ochii pe Dumnezeu și a povesti dragostea",
+      "Nu toţi cei care sapă în jurul tău vor neapărat să-ţi dăruiască o fântână cu apă proaspătă",
+      "Eu cred că un om liber e mai puternic decât un om înarmat",
+      "Între o lacrimă și o fântână arteziană mai rămâne atât:Dreptul la rană"
+    ]
+  },
+
+  {
+    "author": "Mircea Cartarescu",
+    "image": "focus",
+    "quotes": [
+    "Cea mai minunata femeie din lume este cea care te iubeste cu adevarat si pe care-o iubesti cu adevarat.",
+      "Nimic, nimic pe lumea asta sau în pulberea de lumi locuite din depărtare nu e mai singur ca o casă-n ruine. Dezolarea, pe lânga ea, e un copil al speranţei.",
+      "Orice vis e un mesaj, o chemare, un portal. Orice vis îţi pune cu stăruinţă o întrebare. Nu-l înţelegi dacă i-ai dat o interpretare, ci numai dacă i-ai răspuns. Întotdeauna când te-ai auzit chemat pe nume, nu ezită să răspunzi: Aici sunt, Doamne!",
+      "Câţiva centimetri, câţiva ani, câteva mii de lei in plus, câteva cărţi citite în plus, mă rog, lucruri de felul ăsta despart oamenii.",
+      "Dar cine ar putea explica de ce ochii unei femei par imenşi, cu flacăra neagră-mov cât timp o iubim, iar când încetăm s-o iubim nu mai vedem altceva decât ochi obişnuiţi?"
+    ]
+  },
+
+  {
+    "author": "Grigore Vieru",
+    "image": "reflect",
+    "quotes": [
+      "Deși pământul se învârte mereu, m-am născut acasă.",
+      "Copiii scriu pe zăpadă numele mamei cu atâta bucurie, de parcă dânşii au descoperit numele ei şi strălucirea zăpezii.",
+      "Adevăratele tristeţi sunt trei: de maică, de cel drag şi de muzică; restul sunt păreri de rău.",
+      "Poţi iubi până la Dumnezeu, dar este cu neputinţă să şi gândeşti până la El.",
+      "Nu se va şti niciodată câţi înţelepţi şi câţi proşti sunt în Bucureşti, pentru că acolo toată lumea posedă exemplar Limba Română."
+    ]
+  },
+  {
+    "author": "Ion Creanga",
+    "image": "reflect2",
+    "quotes": [
+      "Ştiu că sunt prost. Dar când mă uit în jur, prind curaj",
+      "Hai mai bine despre copilărie să povestim, căci ea este veselă şi nevinovată şi drept vorbind, acesta-i adevărul",
+      "Cartea îţi aduce şi oarecare mângâiere. Eu să nu fi ştiut a ceti, de mult aş fi înnebunit, câte am avut pe capul meu… Din cărţi culegi multă înţelepciune şi, la drept vorbind, nu eşti o vacă de muls pentru fiecare",
+      "Românului i-e greu până se apucă de treabă, că de lăsat îndată se lasă",
+      "Dacă toată lumea ar învăţa carte, n-ar mai avea cine să ne tragă ciubotele"
+    ]
+  }
+]
